@@ -1,2 +1,0 @@
-# timetable
-timetable CSE-B
