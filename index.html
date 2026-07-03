@@ -1,200 +1,151 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>COLLEGE TIMETABLE</title>
-    <style>
-        body { font-family: Arial, sans-serif; background: #f8f9fa; }
-        h1 { text-align: center; margin-top: 30px; font-style: unset; }
-        h2 { text-align: center; margin-top: 30px; font-style: unset; }
-
-        table {
-            border-collapse: separate;
-            border-spacing: 0;
-            margin: 40px auto;
-            width: 80%;
-            background: #fff;
-            border-radius: 18px;
-            box-shadow: 0 2px 12px rgba(0,0,0,0.08);
-            overflow: hidden;
-        }
-        th, td {
-            padding: 10px 8px;
-            text-align: center;
-            border: 1px solid #e0e0e0;
-        }
-        th {
-            font-weight: bold;
-        }
-        .day {
-            font-weight: bold;
-        }
-        tr:first-child th:first-child {
-            border-top-left-radius: 18px;
-        }
-        tr:first-child th:last-child {
-            border-top-right-radius: 18px;
-        }
-        tr:last-child td:first-child {
-            border-bottom-left-radius: 18px;
-        }
-        tr:last-child td:last-child {
-            border-bottom-right-radius: 18px;
-        }
-    </style>
-</head>
 <body>
-    <img src="logo.png" alt="College Logo" style="display:block; margin:30px auto 10px; height:80px;">
-    <h1>ALBERT'S INSTITUTE OF SCIENCE AND TECHNOLOGY</h1>
-    <h2>CSE-B TIMETABLE</h2>
 
-    <table>
-        <tr>
-            <th>Day / Time</th>
-            <th>08:00–08:45<br>Period 1</th>
-            <th>09:10–09:55<br>Period 2</th>
-            <th>10:00–10:45<br>Period 3</th>
-            <th>10:50–11:35<br>Period 4</th>
-            <th>11:55–12:40<br>Period 5</th>
-            <th>12:45–13:30<br>Period 6</th>
-        </tr>
+<img src="logo.png" alt="AISAT Logo"
+     style="display:block;margin:20px auto;height:80px;">
 
-        <tr>
-            <td class="day">Monday</td>
-            <td>PHY<br>[REK]</td>
-            <td>DMS<br>[AAF]</td>
-            <td colspan="2">CP / PHY LAB<br>[SPM, KRC / REK]</td>
-            <td>FOC<br>[SWC]</td>
-            <td>MAT-2<br>[DGP]</td>
-        </tr>
+<h1>ALBERTIAN INSTITUTE OF SCIENCE AND TECHNOLOGY</h1>
+<h2>Computer Science and Engineering - S3 (Class A)</h2>
 
-        <tr>
-            <td class="day">Tuesday</td>
-            <td>IPR<br>[ANS]</td>
-            <td>FOC<br>[SWC]</td>
-            <td>HW<br>[DMR]</td>
-            <td>CP<br>[SPM]</td>
-            <td colspan="2">IT W/S / PHY LAB<br>[SWC / SRC]</td>
-        </tr>
+<table>
+<tr>
+    <th>Day</th>
+    <th>8:00-8:55</th>
+    <th>9:20-10:15</th>
+    <th>10:20-11:15</th>
+    <th>11:35-12:30</th>
+    <th>12:35-1:30</th>
+</tr>
 
-        <tr>
-            <td class="day">Wednesday</td>
-            <td colspan="2">CP / IT W/S<br>[SPM, KRC / SWC]</td>
-            <td>MAT-2<br>[DGP]</td>
-            <td>IPR<br>[ANS]</td>
-            <td>PHY<br>[REK]</td>
-            <td>HW(P)<br>[DMR]</td>
-        </tr>
+<tr>
+    <td class="day">Monday</td>
+    <td>TOC<br>[THV]</td>
+    <td>EE<br>[RPL]</td>
+    <td>DS<br>[SHC]</td>
+    <td>MAT<br>[FMF]</td>
+    <td>OOP<br>[PRJ]</td>
+</tr>
 
-        <tr>
-            <td class="day">Thursday</td>
-            <td>FOC<br>[SWC]</td>
-            <td>MAT-2<br>[DGP]</td>
-            <td>DMS<br>[AAF]</td>
-            <td>PHY<br>[REK]</td>
-            <td>CP<br>[SPM]</td>
-            <td>CP<br>[SPM]</td>
-        </tr>
+<tr>
+    <td class="day">Tuesday</td>
+    <td>DS<br>[SHC]</td>
+    <td>OOP<br>[PRJ]</td>
+    <td colspan="3">DS LAB / DIGITAL LAB<br>[SHC / AIJ, JEW]</td>
+</tr>
 
-        <tr>
-            <td class="day">Friday</td>
-            <td>MAT-2<br>[DGP]</td>
-            <td>CP<br>[SPM]</td>
-            <td>DMS<br>[AAF]</td>
-            <td>LT<br>[DMR]</td>
-            <td>IPR<br>[ANS]</td>
-            <td>DMS(T)<br>[AAF]</td>
-        </tr>
+<tr>
+    <td class="day">Wednesday</td>
+    <td>DAL<br>[AIJ]</td>
+    <td>MAT<br>[FMF]</td>
+    <td>DS<br>[SHC]</td>
+    <td>TOC(T)<br>[THV]</td>
+    <td>EE<br>[RPL]</td>
+</tr>
 
-        <tr>
-            <td class="day">Saturday</td>
-            <td>DMS<br>[AAF]</td>
-            <td>CP<br>[SPM]</td>
-            <td>FOC<br>[SWC]</td>
-            <td>ACTIVITY<br>HOUR</td>
-            <td>HW<br>[DMR]</td>
-            <td>PHY<br>[REK]</td>
-        </tr>
-    </table>
-</body>
-</html>    </table><!-- Subject Legend Table -->
-<table style="margin-top:20px;">
-    <tr>
-        <th>Subject Code</th>
-        <th>Subject Name (with code)</th>
-        <th>Faculty Code</th>
-        <th>Name of Faculty</th>
-    </tr>
+<tr>
+    <td class="day">Thursday</td>
+    <td>MAT<br>[FMF]</td>
+    <td>DAL<br>[AIJ]</td>
+    <td>TOC<br>[THV]</td>
+    <td>DAL<br>[AIJ]</td>
+    <td>OOP<br>[PRJ]</td>
+</tr>
 
-    <tr>
-        <td>MAT-2</td>
-        <td>GAMAT201 – Mathematics for Information Science – 2</td>
-        <td>SDC</td>
-        <td>Prof. Shereeta Dsouza</td>
-    </tr>
-
-    <tr>
-        <td>PHY</td>
-        <td>GAPHT121 – Physics for Information Science</td>
-        <td>REK</td>
-        <td>Prof. Reshma K J</td>
-    </tr>
-
-    <tr>
-        <td>FOC</td>
-        <td>GXEST203 – Foundations of Computing: From Hardware Essentials to Web Design</td>
-        <td>SWC</td>
-        <td>Prof. Sweety Joy C</td>
-    </tr>
-
-    <tr>
-        <td>CP</td>
-        <td>GXEST204 – Programming in C</td>
-        <td>SPM / KRC</td>
-        <td>Prof. Sharija P M, Prof. Krishna C J</td>
-    </tr>
-
-    <tr>
-        <td>DMS</td>
-        <td>PCCST205 – Discrete Mathematics</td>
-        <td>AAF</td>
-        <td>Prof. Anson Antony Fertal</td>
-    </tr>
-
-    <tr>
-        <td>IPR</td>
-        <td>UCESF206 – Engineering Entrepreneurship & IPR</td>
-        <td>ANS</td>
-        <td>Prof. Anagha S</td>
-    </tr>
-
-    <tr>
-        <td>HW</td>
-        <td>UCHWT127 – Health and Wellness</td>
-        <td>DMR</td>
-        <td>Prof. Dilu Mary Rose</td>
-    </tr>
-
-    <tr>
-        <td>IT W/S</td>
-        <td>GXEST208 – IT Workshop</td>
-        <td>SWC</td>
-        <td>Prof. Sweety Joy C</td>
-    </tr>
-
-    <tr>
-        <td>LT</td>
-        <td>Language Training</td>
-        <td>DMR</td>
-        <td>Prof. Dilu Mary Rose</td>
-    </tr>
-
-    <tr>
-        <td>ACTIVITY</td>
-        <td>Activity Hour</td>
-        <td>SWC / RPL / ANG</td>
-        <td>Prof. Sweety Joy C, Prof. Rose Paul, Prof. Angel Mathai</td>
-    </tr>
+<tr>
+    <td class="day">Friday</td>
+    <td colspan="3">DS LAB / DIGITAL LAB<br>[SHC / AIJ, JEW]</td>
+    <td>DAL<br>[AIJ]</td>
+    <td>TOC<br>[THV]</td>
+</tr>
 </table>
+
+<h2>Saturday</h2>
+
+<table>
+<tr>
+    <th>Day</th>
+    <th>8:00-8:45</th>
+    <th>9:10-9:55</th>
+    <th>10:00-10:45</th>
+    <th>10:50-11:35</th>
+    <th>11:55-12:40</th>
+    <th>12:45-1:30</th>
+</tr>
+
+<tr>
+    <td class="day">Saturday</td>
+    <td>DS(T)<br>[SHC]</td>
+    <td>TOC<br>[THV]</td>
+    <td>OOP(T)<br>[PRJ]</td>
+    <td>Activity Hour</td>
+    <td>OOP<br>[PRJ]</td>
+    <td>DS<br>[SHC]</td>
+</tr>
+</table>
+
+<table>
+<tr>
+    <th>Subject Code</th>
+    <th>Subject Name (with code)</th>
+    <th>Faculty Code</th>
+    <th>Name of Faculty</th>
+</tr>
+
+<tr>
+    <td>MAT3</td>
+    <td>GAMAT301 - Mathematics for Computer and Information Science</td>
+    <td>FMF</td>
+    <td>Ms. Ferny Francis</td>
+</tr>
+
+<tr>
+    <td>TOC</td>
+    <td>PCCST302 - Theory of Computation</td>
+    <td>THV</td>
+    <td>Ms. Thilakavathi A</td>
+</tr>
+
+<tr>
+    <td>DS</td>
+    <td>PCCST303 - Data Structures and Algorithms</td>
+    <td>SHC</td>
+    <td>Ms. Shruthy Chandran</td>
+</tr>
+
+<tr>
+    <td>OOP</td>
+    <td>PBCST304 - Object Oriented Programming</td>
+    <td>PRJ</td>
+    <td>Ms. Preeja Mol Prasad</td>
+</tr>
+
+<tr>
+    <td>DAL</td>
+    <td>GAEST305 - Digital Electronics and Logic Design</td>
+    <td>AIJ</td>
+    <td>Ms. Anna Isabel John</td>
+</tr>
+
+<tr>
+    <td>EE</td>
+    <td>UCHUT346 - Economics for Engineers</td>
+    <td>RPL</td>
+    <td>Ms. Rose Paul</td>
+</tr>
+
+<tr>
+    <td>DS Lab</td>
+    <td>PCCSL307 - Data Structures Lab</td>
+    <td>SHC</td>
+    <td>Ms. Shruthy Chandran</td>
+</tr>
+
+<tr>
+    <td>Digital Lab</td>
+    <td>PCCSL308 - Digital Lab</td>
+    <td>AIJ, JEW</td>
+    <td>Ms. Anna Isabel John, Ms. Jefia R. Wilson</td>
+</tr>
+
+</table>
+
 </body>
-</html>
